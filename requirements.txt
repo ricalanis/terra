@@ -15,3 +15,12 @@ mock
 # ----------------------
 gevent
 gunicorn
+
+# ----------------------
+# Tools
+# ----------------------
+requests
+pyproj
+werkzeug
+xlrd
+pandas
