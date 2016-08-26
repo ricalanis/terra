@@ -1,4 +1,5 @@
 # Virtualenv
+data/
 env
 .Python
 include
