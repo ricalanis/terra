@@ -1,11 +1,10 @@
 import os
 import json
-
-from flask import Flask, render_template, request, redirect, url_for, Response
-
 import tools
 import fileops
 import inegi
+from flask import Flask, render_template, request, redirect, url_for, Response
+
 
 app = Flask(__name__)
 
@@ -65,7 +64,7 @@ def query():
     Route: <API>/
     Method: GET
     Input parameters:
-    Usage: /
+    Usage: /query?q=<String>
     Example:/query?q=Garza%20Sada
     '''
     query = request.args.get('q')

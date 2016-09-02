@@ -1,6 +1,11 @@
 import requests
 import tools
 
+'''
+URL_INEGI
+This is a constant object. It's the location of a INEGI service.
+In case there is a change of the service URL/URI, it should be changed here.
+'''
 URL_INEGI = "http://gaia.inegi.org.mx/NLB/tunnel/TableAliasV60/busqueda"
 
 
