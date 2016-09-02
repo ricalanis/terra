@@ -29,8 +29,8 @@ def crossing(street1, street2, city):
 def call_inegi(query):
     query = tools.normalize_data(query)
     request_headers = {"Content-Type": "application/json"}
-    request_body = '{"idUser": "", "pagina": 1, "paramProy": "",
-                     "proyName": "mdm6", "searchCriteria": "'+ query +'",
+    request_body = '{"idUser": "", "pagina": 1, "paramProy": "", \
+                     "proyName": "mdm6", "searchCriteria": "'+ query +'", \
                      "tabla": "geolocator", "where": ""}'
     r = requests.get(URL_INEGI, headers = request_headers,
                      data = request_body)
